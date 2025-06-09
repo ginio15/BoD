@@ -10,7 +10,7 @@ import tempfile
 import os
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 # Test imports
 try:

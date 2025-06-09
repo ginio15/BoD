@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-sys.path.append('.')
+sys.path.append('..')
 
 def test_imports():
     """Test all critical imports"""

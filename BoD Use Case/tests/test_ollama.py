@@ -5,7 +5,7 @@ Test script for Ollama integration in BoD Analysis System
 
 import sys
 import os
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from src.utils.llm_providers import LLMProviderManager
 import json

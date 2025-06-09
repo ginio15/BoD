@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 def test_document_processing_without_ocr():
     """Test that document processing works even without OCR"""

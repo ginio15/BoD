@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 from src.utils.optimized_analysis_engine import OptimizedAnalysisEngine
 from src.models.document import ProcessedDocument, DocumentPage

@@ -11,7 +11,7 @@ from pathlib import Path
 import time
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 from src.models.document import ProcessedDocument, DocumentPage, DocumentMetadata
 from src.utils.document_parser import DocumentParser

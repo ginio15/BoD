@@ -5,7 +5,7 @@ Comprehensive test of Enhanced BoD Analysis Engine with Ollama
 
 import sys
 import os
-sys.path.append(os.path.dirname(__file__))
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
 from src.utils.enhanced_analysis_engine import EnhancedAnalysisEngine
 from src.models.document import ProcessedDocument, DocumentMetadata, DocumentPage

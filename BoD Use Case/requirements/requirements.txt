@@ -1,0 +1,77 @@
+# BoD Presentation Analysis System - Production Requirements
+# Version 2.1.0 (June 2025) - Production Ready
+
+# Core Web Framework
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.6
+
+# Document Processing & OCR
+PyMuPDF>=1.24.0          # Advanced PDF processing with enhanced text extraction
+python-pptx>=0.6.23      # PowerPoint processing with metadata support
+pytesseract>=0.3.10      # OCR integration for screenshot-based presentations
+Pillow>=10.3.0           # Image processing with performance optimizations
+
+# AI & Machine Learning - Production Optimized
+openai>=1.35.0           # Latest OpenAI API with GPT-4 support
+mistralai>=0.4.0         # Enhanced Mistral AI integration
+sentence-transformers>=2.7.0  # Optimized embeddings for semantic analysis
+chromadb>=0.4.24         # Vector database for advanced document analysis
+ollama>=0.2.1            # Enhanced local LLM integration with llama3.2 support
+
+# Data Processing & Analysis - Performance Optimized
+pandas>=2.2.0            # Enhanced data manipulation with performance improvements
+numpy>=1.26.0,<2.0       # Compatibility optimized version
+scikit-learn>=1.4.0      # Advanced ML capabilities
+nltk>=3.8.1              # Natural language processing toolkit
+spacy>=3.7.4             # Advanced NLP with enhanced models
+
+# Text Processing & NLP - Enhanced Capabilities
+regex>=2024.5.15         # Advanced regex support
+beautifulsoup4>=4.12.3   # HTML/XML parsing for complex documents
+fuzzywuzzy>=0.18.0       # Fuzzy string matching for entity recognition
+python-Levenshtein>=0.25.0  # String distance calculations
+
+# Networking & API Integration
+requests>=2.32.0         # HTTP client with security updates
+aiohttp>=3.9.5          # Async HTTP for improved performance
+urllib3>=2.2.0          # URL handling with security improvements
+
+# Utilities & Logging
+tqdm>=4.66.4            # Progress bars for long-running operations
+colorama>=0.4.6         # Cross-platform colored terminal output
+loguru>=0.7.2           # Advanced logging with structured output
+python-dateutil>=2.9.0  # Enhanced date/time parsing
+
+# Development & Testing - Production Quality
+pytest>=8.2.0          # Latest testing framework
+pytest-asyncio>=0.23.0 # Async testing support
+black>=24.4.0           # Code formatting
+flake8>=7.0.0           # Code linting
+
+# Export & Reporting - Enhanced Capabilities
+reportlab>=4.2.0        # PDF generation for reports
+jinja2>=3.1.4           # Template rendering with security updates
+markdown>=3.6.0         # Markdown processing for documentation
+
+# Performance & Monitoring
+psutil>=5.9.8           # System monitoring and resource tracking
+memory-profiler>=0.61.0 # Memory usage profiling for optimization
+
+# Security & Compatibility
+cryptography>=42.0.0    # Enhanced security for API communications
+certifi>=2024.6.2      # SSL certificate bundle
+charset-normalizer>=3.3.0  # Character encoding detection
+
+# File handling
+pathlib2>=2.3.7
+watchdog>=3.0.0
+
+# Optional: For advanced OCR (if Tesseract insufficient)
+# easyocr>=1.7.0         # Alternative OCR engine
+# paddleocr>=2.7.0       # Alternative OCR engine
+
+# System dependencies (install separately):
+# - Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
+# - Ollama: https://ollama.ai/download
+# - spaCy language model: python -m spacy download en_core_web_sm

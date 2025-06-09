@@ -7,7 +7,7 @@ from pathlib import Path
 import sys
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent))
+sys.path.append(str(Path(__file__).parent.parent))
 
 def create_sample_content():
     """Create sample BoD presentation content"""
