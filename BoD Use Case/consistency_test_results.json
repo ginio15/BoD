@@ -1,0 +1,30 @@
+{
+  "data/uploads/Presentation1.pptx": [
+    {
+      "run": 1,
+      "error": "'str' object has no attribute 'metadata'"
+    },
+    {
+      "run": 2,
+      "error": "'str' object has no attribute 'metadata'"
+    },
+    {
+      "run": 3,
+      "error": "'str' object has no attribute 'metadata'"
+    }
+  ],
+  "data/uploads/Presentation2.pptx": [
+    {
+      "run": 1,
+      "error": "'str' object has no attribute 'metadata'"
+    },
+    {
+      "run": 2,
+      "error": "'str' object has no attribute 'metadata'"
+    },
+    {
+      "run": 3,
+      "error": "'str' object has no attribute 'metadata'"
+    }
+  ]
+}

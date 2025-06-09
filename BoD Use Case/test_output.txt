@@ -1,0 +1,22 @@
+INFO:src.utils.llm_providers:Initialized 3 LLM providers
+INFO:src.utils.optimized_analysis_engine:Testing LLM connection...
+INFO:src.utils.optimized_analysis_engine:LLM connection successful
+INFO:src.utils.optimized_analysis_engine:Starting optimized analysis with ollama
+INFO:src.utils.optimized_analysis_engine:Analyzing chunk 1/1
+Testing Optimized Analysis Engine...
+Creating OptimizedAnalysisEngine...
+Starting analysis...
+✅ Analysis completed!
+Commitments found: 2
+Risks found: 0
+Financial insights: 0
+Sentiment: neutral
+
+Commitments:
+  1. Committed to 15% cost reduction by Q2 2025
+  2. Approved $2M budget for digital transformation
+Summary: Here is a summary of the board presentation in 2-3 sentences:
+
+The board has approved a $2M budget for digital transformation and committed to achieving a 15% cost reduction by Q2 2025. Revenue has increased by 12% year-over-year, with the board expressing optimism about future growth. The only identified risk is potential supply chain disruptions.
+
+🎉 Quick test passed!
