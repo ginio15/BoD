@@ -6,6 +6,15 @@ import os
 from pathlib import Path
 from typing import Dict, Any
 
+# Load environment variables from .env file
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    print("python-dotenv not installed. Environment variables will be loaded from system only.")
+except Exception as e:
+    print(f"Warning: Could not load .env file: {e}")
+
 class Config:
     """Configuration class for the application"""
     

@@ -17,7 +17,7 @@ from pathlib import Path
 from datetime import datetime
 
 # Add project root to path
-sys.path.append(str(Path(__file__).parent.parent.parent))
+sys.path.append(str(Path(__file__).parent.parent.parent))  
 
 from src.utils.analysis_engine import AnalysisEngine
 from src.models.document import ProcessedDocument
