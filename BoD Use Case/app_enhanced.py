@@ -103,17 +103,6 @@ def analyze_document_enhanced(document, provider="ollama"):
             results = engine.analyze_document_enhanced(document, provider)
         processing_time = time.time() - start_time
     
-    # Check for API quota errors and provide helpful messages
-    if provider.lower() in ["openai", "mistral"]:
-        all_empty = (
-            len(results.get("enhanced_commitments", [])) == 0 and
-            len(results.get("risk_assessment", [])) == 0 and
-            len(results.get("financial_insights", [])) == 0
-        )
-        if all_empty:
-            st.error(f"⚠️ {provider.upper()} API appears to have quota/billing issues. Consider using Ollama (free) or check your API billing.")
-            st.info("💡 Switch to Ollama in the sidebar for free local processing!")
-    
     return results, processing_time
 
 def display_analysis_results(results, processing_time):
