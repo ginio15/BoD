@@ -1,0 +1,94 @@
+{
+  "OpenAI (Enhanced)": {
+    "duration": 39.02635717391968,
+    "success": true,
+    "metrics": {
+      "commitments": 2,
+      "risks": 4,
+      "financial": 8,
+      "strategic_priorities": 3,
+      "has_sentiment": true,
+      "has_executive_summary": true
+    },
+    "sample_data": {
+      "first_commitment": {
+        "exact_text": "We are committed to increasing our market share by 15% in the next fiscal year.",
+        "category": "financial",
+        "deadline": "next fiscal year",
+        "quantifiable_metric": "15%",
+        "confidence_level": "high",
+        "stakeholder": "management",
+        "risk_factors": "Competitive landscape changes",
+        "dependencies": "Effective marketing strategy implementation"
+      },
+      "first_risk": {
+        "risk_description": "Decrease in market demand for our product",
+        "risk_level": "high",
+        "category": "market",
+        "potential_impact": "Loss of revenue and market share",
+        "mitigation_mentioned": true,
+        "affects_commitments": [
+          "Meeting sales targets",
+          "Maintaining market share"
+        ],
+        "time_horizon": "short-term"
+      },
+      "sentiment_overall": "N/A"
+    }
+  },
+  "OpenAI (Optimized)": {
+    "duration": 8.81645679473877,
+    "success": true,
+    "metrics": {
+      "commitments": 4,
+      "risks": 2,
+      "financial": 5,
+      "strategic_priorities": 3,
+      "has_sentiment": true,
+      "has_executive_summary": true
+    },
+    "sample_data": {
+      "first_commitment": {
+        "text": "Implement a new recycling program in the office",
+        "exact_text": "Implement a new recycling program in the office",
+        "deadline": "Increase recycling rate by 20%",
+        "category": "general",
+        "confidence": "medium",
+        "confidence_level": "medium",
+        "quantifiable_metric": "Not specified",
+        "stakeholder": "Not specified",
+        "risk_factors": [],
+        "source": "llm_simple"
+      },
+      "first_risk": {
+        "description": "Lack of proper training for employees on new software system - Level: high - Impact: Decreased productivity, errors in data entry, and potential security breaches.",
+        "risk_description": "Lack of proper training for employees on new software system - Level: high - Impact: Decreased productivity, errors in data entry, and potential security breaches.",
+        "level": "high",
+        "risk_level": "high",
+        "impact": "Decreased productivity",
+        "potential_impact": "Decreased productivity",
+        "category": "general",
+        "mitigation_mentioned": false,
+        "source": "llm_simple"
+      },
+      "sentiment_overall": "positive"
+    }
+  },
+  "Ollama (Optimized)": {
+    "duration": 23.203500032424927,
+    "success": true,
+    "metrics": {
+      "commitments": 0,
+      "risks": 0,
+      "financial": 0,
+      "strategic_priorities": 0,
+      "has_sentiment": true,
+      "has_executive_summary": true
+    },
+    "sample_data": {
+      "first_commitment": null,
+      "first_risk": null,
+      "sentiment_overall": "neutral"
+    }
+  }
+}
